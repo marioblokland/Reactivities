@@ -180,19 +180,23 @@
     ]
   },
   "packageFolders": {
-    "/home/mario/.nuget/packages/": {}
+    "/Users/mario/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mario/code/private/Reactivities/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/mario/development/personal/Reactivities/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/mario/code/private/Reactivities/Domain/Domain.csproj",
-      "packagesPath": "/home/mario/.nuget/packages/",
-      "outputPath": "/home/mario/code/private/Reactivities/Domain/obj/",
+      "projectPath": "/Users/mario/development/personal/Reactivities/Domain/Domain.csproj",
+      "packagesPath": "/Users/mario/.nuget/packages/",
+      "outputPath": "/Users/mario/development/personal/Reactivities/Domain/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/mario/.nuget/NuGet/NuGet.Config"
+        "/Users/mario/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
